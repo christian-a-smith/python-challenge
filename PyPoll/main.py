@@ -10,6 +10,7 @@ import csv
 import os
 
 #define the paths for both the csv and the text file
+#if these don't work, please try opening the folder and then running. It works on my end when I do that
 electionfile = os.path.join('Resources', 'election_data.csv')
 outputfile = os.path.join('analysis','election_analysis.txt')
 
